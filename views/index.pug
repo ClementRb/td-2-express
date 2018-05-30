@@ -1,0 +1,9 @@
+html
+ head
+  title= title
+ body
+  ul
+    each user in content
+      li= user.email
+      li= user.pseudo
+      li= user.createdAt

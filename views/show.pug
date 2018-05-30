@@ -1,0 +1,12 @@
+html
+ head
+  title= title
+ body
+  h1 Users
+  p=usr.pseudo
+  p=usr.email
+  p=usr.lastname
+  p=usr.firstname
+  p=usr.createdAt
+  form(method='POST' action="/users/" + userId + "?_method=DELETE")
+        button(type='submit') Supprimer
